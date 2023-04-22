@@ -5,7 +5,7 @@ import classes from './Modal.module.css';
 
 const Backdrop = (props) => {
     return (
-        <div className={classes.blackdrop} onClick={props.onClose}/>
+        <div className={classes.backdrop} onClick={props.onClose}/>
     );
 };
 
